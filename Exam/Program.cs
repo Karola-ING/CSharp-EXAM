@@ -1,4 +1,5 @@
-﻿using Items.People;
+﻿using Items;
+using Items.People;
 
 namespace Exam;
 
@@ -9,14 +10,21 @@ public class Program
         Resident resident = new Resident(123, "Adam Mickiewicz");
         Student student = new Student(456, "Juliusz Słowacki");
 
+        Cd cd = new Cd(1, "Nirvana", 8);
+        Book book = new Book(2, "Wuthering Heights", 256, Genre.Nonfiction);
+
         Library library = new Library();
         
         library.AddUser(resident);
         library.AddUser(student);
         
-        library.BorrowItem(1, "Nirvana CD", resident, DateTime.Now.AddDays(-5));
+        library.AddItem(cd);
+        library.AddItem(book);
 
-        Console.ReadLine();
+        foreach (var borrowedItem in library.GetBorrowedItems())
+        {
+            Console.WriteLine(borrowedItem);
+        }
 
     }
 }
