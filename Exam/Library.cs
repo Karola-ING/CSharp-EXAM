@@ -25,7 +25,7 @@ public class Library
         items.Add(item);
     }
 
-    public void BorrowItem(int itemID, string name, Person user, DateTime borrowedDate)
+    public void BorrowItem(int itemID, Person user, DateTime borrowedDate)
     {
         Item itemToBorrow = items.Find(x => x.GetId() == itemID);
         if (user.CanBorrowItems())
@@ -33,14 +33,22 @@ public class Library
             BorrowedItem borrowItem = new BorrowedItem(itemID, user, borrowedDate);
             borrowedItems.Add(borrowItem);
         }
-        Console.WriteLine("This user cannot borrow more items.");
+        else
+        {
+            Console.WriteLine($"{user.GetName()} cannot borrow more items.");
+        }
+        
     }
 
-    public List<BorrowedItem> GetBorrowedItems()
+    public void GetBorrowedItems()
     {
-        return borrowedItems;
+        foreach (var borrowedItem in borrowedItems)
+        {
+            Console.WriteLine(
+                $"ID: {borrowedItem.GetId()}, User who borrowed it: {borrowedItem.GetUser().GetName()}, " +
+                $"Borrowing Date: {borrowedItem.GetBorrowDate()}, Return date: {borrowedItem.GetReturnDate()}."
+            );
+        }
     }
-
-    
 
 }

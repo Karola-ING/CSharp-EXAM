@@ -17,5 +17,35 @@ public class BorrowedItem
         ReturnDate = null;
     }
 
+    public int GetId()
+    {
+        return ItemID;
+    }
     
+    public Person GetUser()
+    {
+        return User;
+    }
+    
+    public DateTime? GetBorrowDate()
+    {
+        return BorrowedDate;
+    }
+    
+    public string GetReturnDate()
+    {
+        string message;
+        if (ReturnDate == null)
+        {
+            message = "Not returned yet";
+            return message;
+        }
+        else
+        {
+            message = Convert.ToString(ReturnDate);
+            return message;
+        }
+
+        
+    }
 }

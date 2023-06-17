@@ -1,4 +1,5 @@
-﻿using Items;
+﻿using System.Runtime.CompilerServices;
+using Items;
 using Items.People;
 
 namespace Exam;
@@ -20,11 +21,10 @@ public class Program
         
         library.AddItem(cd);
         library.AddItem(book);
+        
+        library.BorrowItem(cd.GetId(),resident,DateTime.Now.AddDays(-5));
 
-        foreach (var borrowedItem in library.GetBorrowedItems())
-        {
-            Console.WriteLine(borrowedItem);
-        }
+        library.GetBorrowedItems();
 
     }
 }

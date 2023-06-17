@@ -49,15 +49,10 @@ public class Person
 
         return true;
     }
-    
-    public void LateReturningOfItem()
-    {
-        //TODO 
-    }
 
-    public void BorrowItem()
+    public string GetName()
     {
-        
+        return PersonName;
     }
 
 

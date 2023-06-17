@@ -1,0 +1,12 @@
+/Users/karolinagrzeszczak/Codecool/C#/ESAM/Items/bin/Debug/net6.0/Items.deps.json
+/Users/karolinagrzeszczak/Codecool/C#/ESAM/Items/bin/Debug/net6.0/Items.dll
+/Users/karolinagrzeszczak/Codecool/C#/ESAM/Items/bin/Debug/net6.0/Items.pdb
+/Users/karolinagrzeszczak/Codecool/C#/ESAM/Items/obj/Debug/net6.0/Items.csproj.AssemblyReference.cache
+/Users/karolinagrzeszczak/Codecool/C#/ESAM/Items/obj/Debug/net6.0/Items.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karolinagrzeszczak/Codecool/C#/ESAM/Items/obj/Debug/net6.0/Items.AssemblyInfoInputs.cache
+/Users/karolinagrzeszczak/Codecool/C#/ESAM/Items/obj/Debug/net6.0/Items.AssemblyInfo.cs
+/Users/karolinagrzeszczak/Codecool/C#/ESAM/Items/obj/Debug/net6.0/Items.csproj.CoreCompileInputs.cache
+/Users/karolinagrzeszczak/Codecool/C#/ESAM/Items/obj/Debug/net6.0/Items.dll
+/Users/karolinagrzeszczak/Codecool/C#/ESAM/Items/obj/Debug/net6.0/refint/Items.dll
+/Users/karolinagrzeszczak/Codecool/C#/ESAM/Items/obj/Debug/net6.0/Items.pdb
+/Users/karolinagrzeszczak/Codecool/C#/ESAM/Items/obj/Debug/net6.0/ref/Items.dll
