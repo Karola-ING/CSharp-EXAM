@@ -1,0 +1,5 @@
+/Users/karolinagrzeszczak/Codecool/C#/EXAM/Exam/obj/Debug/net6.0/Exam.csproj.AssemblyReference.cache
+/Users/karolinagrzeszczak/Codecool/C#/EXAM/Exam/obj/Debug/net6.0/Exam.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karolinagrzeszczak/Codecool/C#/EXAM/Exam/obj/Debug/net6.0/Exam.AssemblyInfoInputs.cache
+/Users/karolinagrzeszczak/Codecool/C#/EXAM/Exam/obj/Debug/net6.0/Exam.AssemblyInfo.cs
+/Users/karolinagrzeszczak/Codecool/C#/EXAM/Exam/obj/Debug/net6.0/Exam.csproj.CoreCompileInputs.cache
