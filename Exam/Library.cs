@@ -35,6 +35,7 @@ public class Library
         }
         else
         {
+            user.BlockPerson();
             Console.WriteLine($"{user.GetName()} cannot borrow more items.");
         }
         
